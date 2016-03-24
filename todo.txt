@@ -19,3 +19,17 @@ need two large images
 /
 /gallery
 /contact
+
+
+////
+Passion leads to innovation, innovation leads to quality music, quality music leads to <span>success</span>!
+
+[ut_service_column color="#ffffff" background="#212121" icon="fa-star" headline="ReverbNation" shape="round" width="full" last="true" class="democolor"] <a href="http://www.reverbnation.com/shaniceross">Visit Here</a> [/ut_service_column]
+
+[ut_service_column color="#ffffff" background="#212121" icon="fa-youtube" headline="Youtube" shape="round" width="full" last="true"] <a href="https://www.youtube.com/channel/UCEouSM-6pyr4wNdGOCstFqA">Visit Here</a> [/ut_service_column]
+
+[ut_service_column color="#ffffff" background="#212121" icon="fa-youtube" headline="Youtube" shape="round" width="full" last="true"] <a href="http://instagram.com/shaniceross">Visit Here</a> [/ut_service_column]
+
+[ut_service_column color="#ffffff" background="#212121" icon="fa-twitter" headline="twitter" shape="round" width="full" last="true" class="democolor"] <a href="https://twitter.com/ROSStheQUEEN">Visit Here</a> [/ut_service_column]
+
+[ut_service_column color="#ffffff" background="#212121" icon="fa-facebook" headline="Facebook" shape="round" width="full" last="true"] <a href="https://www.facebook.com/shanicerosss">Visit Here</a> [/ut_service_column]
