@@ -1,0 +1,21 @@
+change background in about body
+change background in music body
+contact page send logic
+integrate instagram api to gallery
+favicon
+page titles
+footer links
+
+Sections
+Header
+about
+music Reverbnation embed
+links
+gallery
+
+need two large images
+
+
+/
+/gallery
+/contact
