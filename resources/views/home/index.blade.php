@@ -37,7 +37,7 @@
 						                <div class="starTitle">
 						                	<h4> ARTIST • SONGWRITER</h4>
 						                	<h1>Shanice Ross</h1>
-						                	<h4>COMING SOON</h4>
+						                	<h4>#RossUp</h4>
 						                </div>
 						                <canvas class="cover" width="1920" height="955"></canvas>
 						            </div>
@@ -52,6 +52,10 @@
 	<!-- ================================================== -->
 	<!-- =============== END BREADCRUMB ================ -->
 	<!-- ================================================== -->
+
+	@include('includes.about')
+
+	@include('includes.music')
 
 	<!-- ================================================== -->
 	<!-- =============== START FOOTER ================ -->

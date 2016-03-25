@@ -50,16 +50,16 @@
 				<div class="col-sm-6 col-sm-offset-3">
 					<div class="singleBlogForm contactForm">
 						<h2>Get in Touch</h2>
-						<form action="contact.html#" method="post" class="comment-form">
-							<input id="author" name="author" type="text" value="" aria-required="true" required placeholder="First Name *">
-							<input id="lastName" name="email" type="text" value="" aria-required="true" required placeholder="Last Name">
-							<input id="url" name="url" type="text" value="" placeholder="Subject* ">
-							<input id="address" name="url" type="text" value="" placeholder="Email Address* ">
-							<textarea name="comment" placeholder="Message..." rows="6" required></textarea>
+						{!! Form::open(['route' => 'contact.send'], ['class' => 'comment-form']) !!}
+							{!! Form::text('first_name', null, ['aria-required' => 'true', 'required', 'placeholder' => 'First Name *']) !!}
+							{!! Form::text('last_name', null, ['aria-required' => 'true', 'required', 'placeholder' => 'Last Name']) !!}
+							{!! Form::text('subject', null, ['placeholder' => 'Subject']) !!}
+							{!! Form::text('email', null, ['placeholder' => 'Email Address']) !!}
+							{!! Form::textarea('message', null, ['placeholder' => 'Message...']) !!}
 							<p class="form-submit">
-								<input name="submit" type="submit" id="submit" value="Send Email">
+								{!! Form::submit('Send Email') !!}
 							</p>
-						</form>
+						{!! Form::close() !!}
 					</div>
 				</div>
 			</div>

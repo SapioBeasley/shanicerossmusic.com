@@ -33,5 +33,9 @@ Route::group(['middleware' => ['web']], function () {
         return view('contact.index');
     });
 
+    Route::post('/send-contact', [
+        'as' => 'contact.send',
+        'uses' => 'ContactsController@send'
+    ]);
+
 });
-// 0cYqNV39lL8

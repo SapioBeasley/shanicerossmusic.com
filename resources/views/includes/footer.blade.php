@@ -10,14 +10,12 @@
 				<div class="col-sm-4">
 					<nav class="social-icons">
 						<ul>
-                			<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                			</li><li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                			<!-- <li><a href="#" target="_blank"><i class="fa fa-apple"></i></a></li> -->
-                			<!-- <li><a href="#" target="_blank"><i class="fa fa-lastfm"></i></a> -->
-                			</li><li><a href="#" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
-                			<li><a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-                			<!-- <li><a href="#" target="_blank"><i class="fa fa-vine"></i></a></li> -->
-              			</ul>
+		                			<li><a href="https://twitter.com/ROSStheQUEEN" target="_blank"><i class="fa fa-twitter"></i></a>
+		                			</li><li><a href="https://www.facebook.com/shanicerosss" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                			</li><li><a href="http://instagram.com/shaniceross" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		                			<li><a href="https://www.youtube.com/channel/UCEouSM-6pyr4wNdGOCstFqA" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+		                			<!-- http://www.reverbnation.com/shaniceross -->
+	              			</ul>
 					</nav>
 				</div>
 				<div class="col-sm-4">
