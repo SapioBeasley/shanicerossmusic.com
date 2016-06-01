@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/shanicerossmusic-com":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/shanicerossmusic-com","hostpath":"/Users/andreasbeasley/sites/shanicerossmusic.com","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/andreasbeasley/sites/shanicerossmusic.com","disabled":false,"__vagrantfile":true}}}
