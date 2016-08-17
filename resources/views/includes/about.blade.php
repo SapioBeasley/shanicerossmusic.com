@@ -1,6 +1,7 @@
-<section style="background-image:url(assets/img/content/bio2.jpg);" class="biography bgkIphone padding " id="content">
+<!-- =============== START BIOGRAPHY SECTION ================ -->
+<section class="biography padding background-properties" id="content">
 	<div class="container">
-		<div class="sectionTitle">
+		<div class="sectionTitle paddingBottom">
 			<span class="heading-t3"></span>
 			<h2><a href="albums.html">Biography</a></h2>
 			<span class="heading-b3"></span>
@@ -11,13 +12,8 @@
 			</div>
 			<div class="col-sm-6">
 				<p>However, her multi-genre fusions set her apart from the conventional rapper. Elements of rock, dub-step, pop, r&amp;b and dance can often be found in much of the music that identifies her unique style. Shanice demonstrates her versatility as she can often be found on the production side of music as well. She is not only the writer, but also the co-producer of her own music. She often collaborates in projects for other aspiring artists as well. As a multi-talented artist, writer and producer Shanice Ross is definitely an up and coming force to watch for.</p>
-				<!-- <div class="signature">
-					<a href="http://www.emihaze.com/showcase">Emili Haze:</a>
-					<div class="imgSignuature">
-						<img src="assets/img/content/signature.png" alt="">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div><!-- end container -->
 </section>
+<!-- =============== END BIOGRAPHY SECTION ================ -->
