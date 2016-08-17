@@ -1,73 +1,45 @@
 @extends('layouts.default')
 
 @section('content')
-<body>
-
-	@include('includes.preload')
-
-	<!-- ================================================== -->
-	<!-- =============== MENU CONTAINER ================ -->
-	<!-- ================================================== -->
-	@include('includes.menu')
-
-	<!-- ================================================== -->
-	<!-- =============== START BREADCRUMB ================ -->
-	<!-- ================================================== -->
-	<section class="no-mb" id="top">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="before-FullscreenSlider"></div>
-				<div class="breadcrumb-fullscreen-parent breadcrumbCustom">
-					<div class="breadcrumb breadcrumbCustom breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('assets/img/header/s11.jpg');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
-					<!-- ORIGINAL IMAGE assets/img/content/music.jpg -->
-						<div class="contactTitle">
-							<h1>Music</h1>
-						</div>
-					</div>
+<!-- =============== START BREADCRUMB ================ -->
+<section class="no-mb">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="before-FullscreenSlider"></div>
+			<div class="breadcrumb-fullscreen-parent phone-menu-bg">
+				<div class="breadcrumb breadcrumb-fullscreen alignleft small-description overlay almost-black-overlay" style="background-image: url('assets/img/header/s11.jpg');" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
 				</div>
 			</div>
 		</div>
-	</section>
-	<!-- ================================================== -->
-	<!-- =============== END BREADCRUMB ================ -->
-	<!-- ================================================== -->
+	</div>
+</section>
+<!-- =============== END BREADCRUMB ================ -->
 
-	<!-- ================================================== -->
-	<!-- =============== ENVENTS SECTION ================ -->
-	<!-- ================================================== -->
-	@include('includes.music')
-	<!-- ================================================== -->
-	<!-- =============== END ENVENTS SECTION ================ -->
-	<!-- ================================================== -->
+@include('includes.music')
+@endsection
 
-	<!-- ================================================== -->
-	<!-- =============== START FOOTER ================ -->
-	<!-- ================================================== -->
-	@include('includes.footer')
-	<!-- ================================================== -->
-	<!-- =============== END FOOTER ================ -->
-	<!-- ================================================== -->
+@section('scripts')
+<!-- ================================================== -->
+<!-- =============== START JQUERY SCRIPTS ================ -->
+<!-- ================================================== -->
 
-	<!-- ================================================== -->
-	<!-- =============== START JQUERY SCRIPTS ================ -->
-	<!-- ================================================== -->
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/plugins.js"></script>
-	<script src="assets/js/main.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script type="text/javascript" src="assets/jplayer/jplayer/jquery.jplayer.js"></script>
+<script src="assets/js/jPlayer.js"></script>
+<script src="assets/js/mainVideo.js"></script>
 
-	<!--[if lte IE 9 ]>
+<!--[if lte IE 9 ]>
 	<script src="assets/js/placeholder.js"></script>
 	<script>
-	jQuery(function() {
-	jQuery('input, textarea').placeholder();
-	});
+		jQuery(function() {
+			jQuery('input, textarea').placeholder();
+		});
 	</script>
-	<![endif]-->
+<![endif]-->
 
-	<!-- ================================================== -->
-	<!-- =============== END JQUERY SCRIPTS ================ -->
-	<!-- ================================================== -->
-
-</body>
+<!-- ================================================== -->
+<!-- =============== END JQUERY SCRIPTS ================ -->
+<!-- ================================================== -->
 @endsection
