@@ -16,7 +16,7 @@ Route::get('/', function () {
 
     $twitterUser = Twitter::getUserTimeline(['screen_name' => 'rossthequeen', 'count' => 2])[0]->user;
 
-    $tweets = Twitter::getUserTimeline(['screen_name' => 'rossthequeen', 'count' => 2]);
+    $tweets = Twitter::getUserTimeline(['screen_name' => 'rossthequeen', 'count' => 4]);
 
     return view('home.index')->with([
         'tracks' => $tracks['results'],
