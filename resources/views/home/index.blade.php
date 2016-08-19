@@ -32,7 +32,7 @@
 @include('includes.about')
 
 <!-- =============== START TWITTER SECTION ================ -->
-<section class="background-properties" style="background-image: url(assets/img/content/twitterBgk.jpg);padding:60px 0">
+<section class="background-properties padding" style="background-image: url(assets/img/content/twitterBgk.jpg);">
 	<div class="twitter">
 		<div class="container">
 			<div class="row">
